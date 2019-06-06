@@ -10,6 +10,6 @@ def using_pop(array)
   array.pop
 end
 
-def pop_with_args(arg)
-  array.pop(arg)
+def pop_with_args(argument)
+  array.drop(argument)
 end
